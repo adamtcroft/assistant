@@ -11,7 +11,6 @@ function getWeather()
     fetch(url)
     .then((resp) => resp.json())
     .then((data) => {
-        console.log(data);
         let weatherDescription = data.weather[0].description;
         let tempMaxKelvin = data.main.temp_max;
         let tempMinKelvin = data.main.temp_min;

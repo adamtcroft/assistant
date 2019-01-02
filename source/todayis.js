@@ -81,7 +81,7 @@ function todayIs() {
     ", " +
     month +
     " " +
-    date.getDay() +
+    date.getDate() +
     ", " +
     date.getFullYear();
 }
